@@ -29,6 +29,3 @@ git = "https://github.com/pingcap/rust-rocksdb.git"
 [dependencies.kvproto]
 git = "https://github.com/pingcap/kvproto.git"
 branch="release-2.1"
-
-[replace]
-"raft:0.3.1" = { git = "https://github.com/pingcap/raft-rs.git" }
